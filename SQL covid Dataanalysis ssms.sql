@@ -4,7 +4,7 @@ from bootcamp..covidvaccine order by 3,4;
 
 select *
 from bootcamp..coviddata order by 3,4;
-
+ 
 --show likelihood of deaths in china or in your country
 select location,date,total_deaths,population
 from bootcamp..coviddata 
